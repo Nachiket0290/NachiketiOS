@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autoLayout_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOs-RV-KvP">
+                                <rect key="frame" x="16" y="20" width="53" height="30"/>
+                                <state key="normal" title="TopLeft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teY-5g-7oj">
+                                <rect key="frame" x="124" y="20" width="72" height="30"/>
+                                <state key="normal" title="TopCenter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj1-J7-BTP">
+                                <rect key="frame" x="16" y="269" width="73" height="30"/>
+                                <state key="normal" title="CenterLeft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCa-J2-fas">
+                                <rect key="frame" x="221" y="269" width="83" height="30"/>
+                                <state key="normal" title="CenterRight"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNm-p4-2ae">
+                                <rect key="frame" x="136.5" y="269" width="47" height="30"/>
+                                <state key="normal" title="Center"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqk-XU-itq">
+                                <rect key="frame" x="218" y="518" width="86" height="30"/>
+                                <state key="normal" title="BottomRight"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCr-yu-kn8">
+                                <rect key="frame" x="111.5" y="518" width="97" height="30"/>
+                                <state key="normal" title="BottomCenter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgP-fz-jh9">
+                                <rect key="frame" x="16" y="518" width="77" height="30"/>
+                                <state key="normal" title="BottomLeft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yay-E3-b7o">
+                                <rect key="frame" x="242" y="20" width="62" height="30"/>
+                                <state key="normal" title="TopRight"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="teY-5g-7oj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Ej-bQ-X1C"/>
+                            <constraint firstItem="vj1-J7-BTP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Azf-iS-8Rh"/>
+                            <constraint firstItem="TNm-p4-2ae" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BVk-ln-XUx"/>
+                            <constraint firstItem="vj1-J7-BTP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KEf-6i-DdG"/>
+                            <constraint firstItem="yay-E3-b7o" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Qom-Gg-MD3"/>
+                            <constraint firstItem="bOs-RV-KvP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UKv-PI-yIQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TgP-fz-jh9" secondAttribute="bottom" constant="20" id="amP-BT-9Wk"/>
+                            <constraint firstItem="bOs-RV-KvP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bjT-2a-SVb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rqk-XU-itq" secondAttribute="bottom" constant="20" id="cpD-S2-5om"/>
+                            <constraint firstItem="teY-5g-7oj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="gqJ-lj-lDp"/>
+                            <constraint firstItem="uCr-yu-kn8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hZ0-zF-3Id"/>
+                            <constraint firstItem="yay-E3-b7o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sqa-YD-yAx"/>
+                            <constraint firstItem="nCa-J2-fas" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="swZ-ir-0v9"/>
+                            <constraint firstItem="nCa-J2-fas" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="w17-dA-vwS"/>
+                            <constraint firstItem="Rqk-XU-itq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wYx-2Q-QAm"/>
+                            <constraint firstItem="TNm-p4-2ae" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wdm-Ba-dTz"/>
+                            <constraint firstItem="TgP-fz-jh9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ydh-gy-g7e"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uCr-yu-kn8" secondAttribute="bottom" constant="20" id="z7g-FT-Y5n"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
